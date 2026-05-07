@@ -1,108 +1,4 @@
-# Session 1: JavaScript Overview, Command Line & GitHub
-
-Hi I'm Phuong Huyen Tran. Welcome to Session 1 of the NAB-WECAMP training program! This session introduces the fundamentals of web development, focusing on JavaScript basics, command-line tools, and version control with GitHub.
-
-## 📚 Learning Objectives
-
-By the end of this session, you will be able to:
-- Understand JavaScript fundamentals and syntax
-- Navigate and use the command line effectively
-- Use Git and GitHub for version control and collaboration
-
----
-
-## 1. JavaScript Overview
-
-### What is JavaScript?
-JavaScript is a lightweight, interpreted programming language that runs in web browsers and servers. It's essential for creating interactive web applications.
-
-### Key Features
-- **Dynamic Typing**: Variables can hold any data type
-- **Event-Driven**: Responds to user interactions
-- **Functional Programming**: Supports first-class functions and callbacks
-- **Object-Oriented**: Supports objects and prototypes
-
-### JavaScript Fundamentals
-
-#### Variables & Data Types
-```javascript
-// Variable declaration
-let name = "John";
-const age = 25;
-var city = "New York";
-
-// Data Types
-let string = "Hello";
-let number = 42;
-let boolean = true;
-let array = [1, 2, 3];
-let object = { name: "John", age: 25 };
-let nullValue = null;
-let undefined;
-```
-
-#### Functions
-```javascript
-// Function declaration
-function greet(name) {
-  return "Hello, " + name;
-}
-
-// Arrow function (ES6+)
-const add = (a, b) => a + b;
-
-// Function call
-console.log(greet("Alice"));
-console.log(add(5, 3));
-```
-
-#### Control Structures
-```javascript
-// If-else
-if (age > 18) {
-  console.log("Adult");
-} else {
-  console.log("Minor");
-}
-
-// Loops
-for (let i = 0; i < 5; i++) {
-  console.log(i);
-}
-
-while (condition) {
-  // code block
-}
-```
-
-#### Objects & Arrays
-```javascript
-// Objects
-const person = {
-  name: "John",
-  age: 25,
-  greet: function() {
-    console.log("Hello!");
-  }
-};
-
-// Arrays
-const numbers = [1, 2, 3, 4, 5];
-numbers.push(6);
-numbers.map(n => n * 2);
-```
-
-### Best Practices
-- Use `const` by default, `let` when reassignment is needed, avoid `var`
-- Write descriptive variable names
-- Keep functions small and focused
-- Use comments to explain complex logic
-
----
-
-## 2. Command Line Essentials
-
-The command line (terminal/console) is a text-based interface for interacting with your computer.
+# Homework: Basic Command Line Essentials
 
 ### Basic Commands
 
@@ -286,21 +182,9 @@ git log                           # View history
 
 ---
 
-## 📁 Session Files
+## Exercises
 
-```
-SESSION1-220426/
-├── README.md                 # This file
-├── session1.js              # Main JavaScript exercises
-└── training-demo/
-    └── lab1.js              # Lab 1 exercises
-```
-
----
-
-## 🎯 Exercises
-
-### Exercise 1: JavaScript Basics (session1.js)
+### Exercise 1: JavaScript Basics 
 - Write and run basic JavaScript code
 - Practice variable declaration and data types
 - Create functions and understand scope
@@ -310,14 +194,14 @@ SESSION1-220426/
 - Create files and directories
 - Run JavaScript files from the terminal
 
-### Exercise 3: Git & GitHub Basics (training-demo/lab1.js)
+### Exercise 3: Git & GitHub Basics 
 - Initialize a local repository
 - Create commits for your code changes
 - Push your code to GitHub
 
 ---
 
-## 📖 Additional Resources
+## Additional Resources
 
 ### JavaScript
 - [MDN JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
@@ -333,18 +217,7 @@ SESSION1-220426/
 
 ---
 
-## 💡 Tips for Success
-
-1. **Practice Regularly**: Spend time experimenting with code in the console
-2. **Use the Terminal**: Become comfortable with command-line operations
-3. **Make Meaningful Commits**: Write clear commit messages that describe what changed
-4. **Read Error Messages**: They provide valuable information about what went wrong
-5. **Break Problems Down**: Divide complex tasks into smaller steps
-6. **Collaborate**: Use GitHub to share code and learn from others
-
----
-
-## ❓ Troubleshooting
+## Troubleshooting
 
 ### Node.js not found
 ```bash
@@ -370,7 +243,5 @@ git config --global user.email "your.email@example.com"
 ```
 
 ---
-
 **Last Updated**: 22nd April 2026  
 **Session**: 1 - JavaScript Overview, Command Line & GitHub
-
